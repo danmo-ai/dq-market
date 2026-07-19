@@ -34,10 +34,12 @@ market:
       name: Official (GitHub)
       kind: git
       platform: github
-      repo: danqing-ai/dq-market
+      repo: https://github.com/danqing-ai/dq-market
       ref: main
       enabled: true
       priority: 10
 ```
 
-本地开发可指向本仓的 git remote，或配置 `platform: generic` 的自定义源。
+官方仓：https://github.com/danqing-ai/dq-market
+
+本地开发也可配置 `platform: local` 指向本目录绝对路径。
