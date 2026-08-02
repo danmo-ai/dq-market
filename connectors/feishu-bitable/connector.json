@@ -1,0 +1,12 @@
+{
+  "id": "feishu-bitable",
+  "name": "Feishu Bitable (via OpenConnector/Composio)",
+  "description": "Multidimensional tables — connect through a gateway MCP after Phase-0 wiring.",
+  "category": "china",
+  "transport": "streamable-http",
+  "url": "http://localhost:3000/mcp",
+  "auth": "none",
+  "docsUrl": "https://open.feishu.cn/document/server-docs/docs/bitable-v1/bitable-overview",
+  "region": "cn",
+  "tags": ["feishu", "bitable", "sheets"]
+}

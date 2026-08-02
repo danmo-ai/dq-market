@@ -1,0 +1,12 @@
+{
+  "id": "notion-mcp",
+  "name": "Notion MCP",
+  "description": "Notion workspace via remote MCP (OAuth).",
+  "category": "saas",
+  "transport": "streamable-http",
+  "url": "https://mcp.notion.com/mcp",
+  "auth": "oauth",
+  "docsUrl": "https://developers.notion.com/",
+  "region": "global",
+  "tags": ["notion", "docs"]
+}

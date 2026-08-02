@@ -1,0 +1,12 @@
+{
+  "id": "github-mcp",
+  "name": "GitHub MCP",
+  "description": "Official GitHub remote MCP (issues, PRs, repos). Use OAuth or PAT header.",
+  "category": "saas",
+  "transport": "streamable-http",
+  "url": "https://api.githubcopilot.com/mcp/",
+  "auth": "headers",
+  "docsUrl": "https://github.com/github/github-mcp-server",
+  "region": "global",
+  "tags": ["github", "code"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "feishu-docs",
+  "name": "Feishu / Lark Docs MCP",
+  "description": "Feishu documents & wiki via community/official MCP. Prefer outbound IM channel for chat; use MCP for doc actions.",
+  "category": "china",
+  "transport": "stdio",
+  "command": "npx",
+  "args": "-y @larksuiteoapi/lark-mcp",
+  "auth": "headers",
+  "docsUrl": "https://open.feishu.cn/",
+  "region": "cn",
+  "tags": ["feishu", "lark", "docs", "bitable"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "filesystem-mcp",
+  "name": "Filesystem MCP (local)",
+  "description": "Reference stdio MCP for local files — useful for testing CallTool wiring.",
+  "category": "local",
+  "transport": "stdio",
+  "command": "npx",
+  "args": "-y @modelcontextprotocol/server-filesystem",
+  "auth": "none",
+  "docsUrl": "https://github.com/modelcontextprotocol/servers",
+  "region": "global",
+  "tags": ["local", "files", "test"]
+}

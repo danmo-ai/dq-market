@@ -1,0 +1,12 @@
+{
+  "id": "composio",
+  "name": "Composio Connect",
+  "description": "1000+ apps via meta-tools (search → connect → execute). Managed OAuth.",
+  "category": "gateway",
+  "transport": "streamable-http",
+  "url": "https://connect.composio.dev/mcp",
+  "auth": "headers",
+  "docsUrl": "https://docs.composio.dev/",
+  "region": "global",
+  "tags": ["slack", "gmail", "github", "notion", "gateway"]
+}

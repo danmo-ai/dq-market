@@ -1,0 +1,12 @@
+{
+  "id": "openconnector",
+  "name": "OpenConnector (self-hosted)",
+  "description": "Open-source auth gateway. Point at your local OpenConnector MCP endpoint.",
+  "category": "gateway",
+  "transport": "streamable-http",
+  "url": "http://localhost:3000/mcp",
+  "auth": "none",
+  "docsUrl": "https://github.com/oomol-lab/open-connector",
+  "region": "global",
+  "tags": ["gateway", "self-hosted"]
+}

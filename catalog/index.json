@@ -27,6 +27,97 @@
       "path": "experts/meeting-facilitator",
       "skillDeps": ["meeting-notes"],
       "updatedAt": "2026-07-19"
+    },
+    {
+      "kind": "connector",
+      "id": "composio",
+      "name": "Composio Connect",
+      "description": "1000+ apps via meta-tools (search → connect → execute). Managed OAuth.",
+      "keywords": ["slack", "gmail", "github", "notion", "gateway"],
+      "category": "gateway",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/composio",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "connector",
+      "id": "openconnector",
+      "name": "OpenConnector (self-hosted)",
+      "description": "Open-source auth gateway. Point at your local OpenConnector MCP endpoint.",
+      "keywords": ["gateway", "self-hosted"],
+      "category": "gateway",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/openconnector",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "connector",
+      "id": "github-mcp",
+      "name": "GitHub MCP",
+      "description": "Official GitHub remote MCP (issues, PRs, repos). Use OAuth or PAT header.",
+      "keywords": ["github", "code"],
+      "category": "saas",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/github-mcp",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "connector",
+      "id": "notion-mcp",
+      "name": "Notion MCP",
+      "description": "Notion workspace via remote MCP (OAuth).",
+      "keywords": ["notion", "docs"],
+      "category": "saas",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/notion-mcp",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "connector",
+      "id": "feishu-docs",
+      "name": "Feishu / Lark Docs MCP",
+      "description": "Feishu documents & wiki via community/official MCP. Prefer outbound IM channel for chat; use MCP for doc actions.",
+      "keywords": ["feishu", "lark", "docs", "bitable"],
+      "category": "china",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/feishu-docs",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "connector",
+      "id": "feishu-bitable",
+      "name": "Feishu Bitable (via OpenConnector/Composio)",
+      "description": "Multidimensional tables — connect through a gateway MCP after Phase-0 wiring.",
+      "keywords": ["feishu", "bitable", "sheets"],
+      "category": "china",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/feishu-bitable",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "connector",
+      "id": "filesystem-mcp",
+      "name": "Filesystem MCP (local)",
+      "description": "Reference stdio MCP for local files — useful for testing CallTool wiring.",
+      "keywords": ["local", "files", "test"],
+      "category": "local",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/filesystem-mcp",
+      "updatedAt": "2026-08-02"
     }
   ]
 }
