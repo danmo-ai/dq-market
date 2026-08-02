@@ -118,6 +118,46 @@
       "author": "danqing",
       "path": "connectors/filesystem-mcp",
       "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "connector",
+      "id": "danmo-make",
+      "name": "Danmo Make",
+      "description": "Local image/video/audio generation via Danmo Make MCP (bound-only; use with danmo-make expert).",
+      "keywords": ["danmo-make", "image", "video", "audio", "generation", "local"],
+      "category": "local",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/danmo-make",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "skill",
+      "id": "danmo-make",
+      "name": "Danmo Make",
+      "description": "Create and edit images/videos/audio via the Danmo Make MCP connector.",
+      "keywords": ["danmo-make", "image", "video", "audio", "generation"],
+      "category": "creative",
+      "version": "0.2.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "skills/danmo-make",
+      "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "expert",
+      "id": "danmo-make",
+      "name": "Danmo Make",
+      "description": "Creative production expert for Danmo Make image/video/audio generation.",
+      "keywords": ["danmo-make", "image", "video", "audio", "creative"],
+      "category": "creative",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "experts/danmo-make",
+      "skillDeps": ["danmo-make"],
+      "updatedAt": "2026-08-02"
     }
   ]
 }

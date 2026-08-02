@@ -1,0 +1,14 @@
+{
+  "id": "danmo-make",
+  "name": "Danmo Make",
+  "description": "Local image/video/audio generation via Danmo Make MCP. Bound-only by default — bind via the danmo-make expert.",
+  "category": "local",
+  "transport": "streamable-http",
+  "url": "http://127.0.0.1:7800/mcp/",
+  "auth": "none",
+  "docsUrl": "https://github.com/danmo-ai/danmo-make",
+  "region": "global",
+  "tags": ["danmo-make", "image", "video", "audio", "generation", "local"],
+  "toolTimeout": 900,
+  "ambientMount": false
+}
