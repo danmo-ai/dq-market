@@ -56,19 +56,6 @@
     },
     {
       "kind": "connector",
-      "id": "github-mcp",
-      "name": "GitHub MCP",
-      "description": "Official GitHub remote MCP (issues, PRs, repos). Use OAuth or PAT header.",
-      "keywords": ["github", "code"],
-      "category": "saas",
-      "version": "0.1.0",
-      "license": "MIT",
-      "author": "danqing",
-      "path": "connectors/github-mcp",
-      "updatedAt": "2026-08-02"
-    },
-    {
-      "kind": "connector",
       "id": "notion-mcp",
       "name": "Notion MCP",
       "description": "Notion workspace via remote MCP (OAuth).",

@@ -35,16 +35,16 @@ connectors/<id>/connector.json     # 连接器预设（MCP transport / auth / UR
 
 ```json
 {
-  "id": "github-mcp",
-  "name": "GitHub MCP",
-  "description": "Official GitHub remote MCP",
+  "id": "notion-mcp",
+  "name": "Notion MCP",
+  "description": "Notion workspace via remote MCP (OAuth)",
   "category": "saas",
   "transport": "streamable-http",
-  "url": "https://api.githubcopilot.com/mcp/",
-  "auth": "headers",
-  "docsUrl": "https://github.com/github/github-mcp-server",
+  "url": "https://mcp.notion.com/mcp",
+  "auth": "oauth",
+  "docsUrl": "https://developers.notion.com/",
   "region": "global",
-  "tags": ["github", "code"]
+  "tags": ["notion", "docs"]
 }
 ```
 
