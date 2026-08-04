@@ -1,12 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "items": [
     {
       "kind": "skill",
       "id": "meeting-notes",
       "name": "Meeting Notes",
       "description": "Structure meeting notes into agenda, decisions, and action items.",
-      "keywords": ["meeting", "notes", "work"],
+      "keywords": [
+        "meeting",
+        "notes",
+        "work"
+      ],
       "category": "work",
       "version": "0.1.0",
       "license": "MIT",
@@ -19,13 +23,18 @@
       "id": "meeting-facilitator",
       "name": "Meeting Facilitator",
       "description": "Facilitates meetings and produces structured notes via the meeting-notes skill.",
-      "keywords": ["meeting", "facilitator"],
+      "keywords": [
+        "meeting",
+        "facilitator"
+      ],
       "category": "work",
       "version": "0.1.0",
       "license": "MIT",
       "author": "danqing",
       "path": "experts/meeting-facilitator",
-      "skillDeps": ["meeting-notes"],
+      "skillDeps": [
+        "meeting-notes"
+      ],
       "updatedAt": "2026-07-19"
     },
     {
@@ -33,7 +42,13 @@
       "id": "composio",
       "name": "Composio Connect",
       "description": "1000+ apps via meta-tools (search → connect → execute). Managed OAuth.",
-      "keywords": ["slack", "gmail", "github", "notion", "gateway"],
+      "keywords": [
+        "slack",
+        "gmail",
+        "github",
+        "notion",
+        "gateway"
+      ],
       "category": "gateway",
       "version": "0.1.0",
       "license": "MIT",
@@ -46,7 +61,10 @@
       "id": "openconnector",
       "name": "OpenConnector (self-hosted)",
       "description": "Open-source auth gateway. Point at your local OpenConnector MCP endpoint.",
-      "keywords": ["gateway", "self-hosted"],
+      "keywords": [
+        "gateway",
+        "self-hosted"
+      ],
       "category": "gateway",
       "version": "0.1.0",
       "license": "MIT",
@@ -59,7 +77,10 @@
       "id": "notion-mcp",
       "name": "Notion MCP",
       "description": "Notion workspace via remote MCP (OAuth).",
-      "keywords": ["notion", "docs"],
+      "keywords": [
+        "notion",
+        "docs"
+      ],
       "category": "saas",
       "version": "0.1.0",
       "license": "MIT",
@@ -72,7 +93,12 @@
       "id": "feishu-docs",
       "name": "Feishu / Lark Docs MCP",
       "description": "Feishu documents & wiki via community/official MCP. Prefer outbound IM channel for chat; use MCP for doc actions.",
-      "keywords": ["feishu", "lark", "docs", "bitable"],
+      "keywords": [
+        "feishu",
+        "lark",
+        "docs",
+        "bitable"
+      ],
       "category": "china",
       "version": "0.1.0",
       "license": "MIT",
@@ -85,7 +111,11 @@
       "id": "feishu-bitable",
       "name": "Feishu Bitable (via OpenConnector/Composio)",
       "description": "Multidimensional tables — connect through a gateway MCP after Phase-0 wiring.",
-      "keywords": ["feishu", "bitable", "sheets"],
+      "keywords": [
+        "feishu",
+        "bitable",
+        "sheets"
+      ],
       "category": "china",
       "version": "0.1.0",
       "license": "MIT",
@@ -98,7 +128,11 @@
       "id": "filesystem-mcp",
       "name": "Filesystem MCP (local)",
       "description": "Reference stdio MCP for local files — useful for testing CallTool wiring.",
-      "keywords": ["local", "files", "test"],
+      "keywords": [
+        "local",
+        "files",
+        "test"
+      ],
       "category": "local",
       "version": "0.1.0",
       "license": "MIT",
@@ -111,7 +145,14 @@
       "id": "danmo-make",
       "name": "Danmo Make",
       "description": "Local image/video/audio generation via Danmo Make MCP (bound-only; use with danmo-make expert).",
-      "keywords": ["danmo-make", "image", "video", "audio", "generation", "local"],
+      "keywords": [
+        "danmo-make",
+        "image",
+        "video",
+        "audio",
+        "generation",
+        "local"
+      ],
       "category": "local",
       "version": "0.1.0",
       "license": "MIT",
@@ -124,7 +165,13 @@
       "id": "danmo-make",
       "name": "Danmo Make",
       "description": "Create and edit images/videos/audio via the Danmo Make MCP connector.",
-      "keywords": ["danmo-make", "image", "video", "audio", "generation"],
+      "keywords": [
+        "danmo-make",
+        "image",
+        "video",
+        "audio",
+        "generation"
+      ],
       "category": "creative",
       "version": "0.2.0",
       "license": "MIT",
@@ -137,14 +184,95 @@
       "id": "danmo-make",
       "name": "Danmo Make",
       "description": "Creative production expert for Danmo Make image/video/audio generation.",
-      "keywords": ["danmo-make", "image", "video", "audio", "creative"],
+      "keywords": [
+        "danmo-make",
+        "image",
+        "video",
+        "audio",
+        "creative"
+      ],
       "category": "creative",
       "version": "0.1.0",
       "license": "MIT",
       "author": "danqing",
       "path": "experts/danmo-make",
-      "skillDeps": ["danmo-make"],
+      "skillDeps": [
+        "danmo-make"
+      ],
       "updatedAt": "2026-08-02"
+    },
+    {
+      "kind": "skill",
+      "id": "codegraph",
+      "name": "CodeGraph",
+      "description": "Query the local CodeGraph index for symbols, callers, and impact analysis.",
+      "keywords": [
+        "codegraph",
+        "symbols",
+        "callers",
+        "impact",
+        "code"
+      ],
+      "category": "code",
+      "version": "0.2.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "skills/codegraph",
+      "updatedAt": "2026-08-04"
+    },
+    {
+      "kind": "connector",
+      "id": "codegraph",
+      "name": "CodeGraph",
+      "description": "Local CodeGraph-Rust MCP. Runs platform deps script to install the CLI (~10MB).",
+      "keywords": [
+        "codegraph",
+        "symbols",
+        "callers",
+        "impact",
+        "local"
+      ],
+      "category": "local",
+      "version": "0.42.6",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "connectors/codegraph",
+      "updatedAt": "2026-08-04",
+      "deps": {
+        "darwin": "deps/darwin.sh",
+        "linux": "deps/linux.sh",
+        "windows": "deps/windows.ps1"
+      },
+      "uninstallDeps": {
+        "darwin": "deps/uninstall-darwin.sh",
+        "linux": "deps/uninstall-linux.sh",
+        "windows": "deps/uninstall-windows.ps1"
+      }
+    },
+    {
+      "kind": "expert",
+      "id": "codegraph",
+      "name": "CodeGraph",
+      "description": "Symbol, call-graph, and impact analysis. Installs skill + connector + platform CLI.",
+      "keywords": [
+        "codegraph",
+        "symbols",
+        "callers",
+        "impact",
+        "code"
+      ],
+      "category": "code",
+      "version": "0.2.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "experts/codegraph",
+      "skillDeps": [
+        "codegraph"
+      ],
+      "connectorDeps": [
+        "codegraph"
+      ],
+      "updatedAt": "2026-08-04"
     }
   ]
 }

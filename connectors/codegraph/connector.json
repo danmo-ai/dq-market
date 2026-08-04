@@ -1,0 +1,16 @@
+{
+  "id": "codegraph",
+  "name": "CodeGraph",
+  "description": "Local code knowledge graph via CodeGraph-Rust MCP (bound-only; use with the codegraph expert). Platform deps script installs the CLI.",
+  "category": "local",
+  "transport": "stdio",
+  "command": "codegraph",
+  "args": "serve --mcp",
+  "env": "CODEGRAPH_MCP_TOOLS=explore,impact,callers,status,search,node",
+  "auth": "none",
+  "docsUrl": "https://github.com/sunerpy/codegraph-rust",
+  "region": "global",
+  "tags": ["codegraph", "code", "symbols", "impact", "local"],
+  "toolTimeout": 120,
+  "ambientMount": false
+}
