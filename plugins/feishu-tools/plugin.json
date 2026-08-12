@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "feishu-tools",
+  "version": "0.1.0",
+  "description": "飞书集成：连接飞书文档和飞书多维表格，通过 MCP 协议读写飞书内容",
+  "author": { "name": "DanMo Work" },
+  "license": "MIT",
+  "keywords": ["feishu", "docs", "bitable", "lark", "china"],
+  "extensions": {}
+}

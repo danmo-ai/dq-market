@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "self-hosted-mcp",
+  "version": "0.1.0",
+  "description": "自建 MCP 工具集：Composio 集成网关、OpenConnector 本地网关、Notion MCP、Filesystem MCP",
+  "author": { "name": "DanMo Work" },
+  "license": "MIT",
+  "keywords": ["composio", "notion", "filesystem", "self-hosted", "gateway"],
+  "extensions": {}
+}

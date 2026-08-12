@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codegraph",
+  "version": "0.2.0",
+  "description": "代码知识图谱：智能代码探索、影响分析、符号搜索，集成 CodeGraph-Rust CLI",
+  "author": { "name": "DanMo Work" },
+  "license": "MIT",
+  "keywords": ["code", "graph", "explore", "impact", "symbols"],
+  "extensions": {
+    "ai.danmo.work": {
+      "experts": true
+    }
+  }
+}

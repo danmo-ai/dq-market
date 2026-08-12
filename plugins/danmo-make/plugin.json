@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "danmo-make",
+  "version": "0.2.0",
+  "description": "丹墨生图：AI 图像/视频/音频生成专家，支持模型查询、资产生成与导出",
+  "author": { "name": "DanMo Work" },
+  "license": "MIT",
+  "keywords": ["image", "video", "audio", "generation", "creative"],
+  "extensions": {
+    "ai.danmo.work": {
+      "experts": true
+    }
+  }
+}

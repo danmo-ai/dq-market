@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "danmo-make": {
+      "type": "streamable-http",
+      "url": "http://127.0.0.1:7800/mcp/"
+    }
+  }
+}

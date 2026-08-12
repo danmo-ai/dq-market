@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "meeting-facilitator",
+  "version": "0.1.0",
+  "description": "会议纪要专家：自动整理会议记录，生成结构化笔记，标注待决议题和行动项",
+  "author": { "name": "DanMo Work" },
+  "license": "MIT",
+  "keywords": ["meeting", "notes", "facilitation"],
+  "extensions": {
+    "ai.danmo.work": {
+      "experts": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "feishu-docs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": "-y @larksuiteoapi/lark-mcp"
+    },
+    "feishu-bitable": {
+      "type": "streamable-http",
+      "url": "http://localhost:3000/mcp"
+    }
+  }
+}

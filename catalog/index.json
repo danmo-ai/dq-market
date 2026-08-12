@@ -273,6 +273,81 @@
         "codegraph"
       ],
       "updatedAt": "2026-08-04"
+    },
+    {
+      "kind": "plugin",
+      "id": "meeting-facilitator",
+      "name": "Meeting Facilitator",
+      "description": "会议纪要专家插件：包含 meeting-facilitator 专家 + meeting-notes 技能",
+      "keywords": ["meeting", "notes", "facilitation"],
+      "category": "work",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "plugins/meeting-facilitator",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "kind": "plugin",
+      "id": "danmo-make",
+      "name": "Danmo Make",
+      "description": "丹墨生图插件：包含 danmo-make 专家 + skill + MCP 连接器",
+      "keywords": ["danmo-make", "image", "video", "audio", "creative"],
+      "category": "creative",
+      "version": "0.2.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "plugins/danmo-make",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "kind": "plugin",
+      "id": "codegraph",
+      "name": "CodeGraph",
+      "description": "代码知识图谱插件：包含 codegraph 专家 + skill + MCP + 平台 CLI 安装脚本",
+      "keywords": ["codegraph", "symbols", "callers", "impact", "code"],
+      "category": "code",
+      "version": "0.2.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "plugins/codegraph",
+      "updatedAt": "2026-08-12",
+      "deps": {
+        "darwin": "deps/darwin.sh",
+        "linux": "deps/linux.sh",
+        "windows": "deps/windows.ps1"
+      },
+      "uninstallDeps": {
+        "darwin": "deps/uninstall-darwin.sh",
+        "linux": "deps/uninstall-linux.sh",
+        "windows": "deps/uninstall-windows.ps1"
+      }
+    },
+    {
+      "kind": "plugin",
+      "id": "feishu-tools",
+      "name": "Feishu Tools",
+      "description": "飞书集成插件：包含 feishu-docs + feishu-bitable MCP 连接器",
+      "keywords": ["feishu", "docs", "bitable", "lark", "china"],
+      "category": "china",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "plugins/feishu-tools",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "kind": "plugin",
+      "id": "self-hosted-mcp",
+      "name": "Self-Hosted MCP Tools",
+      "description": "自建工具集插件：包含 Composio + OpenConnector + Notion MCP + Filesystem MCP",
+      "keywords": ["composio", "notion", "filesystem", "self-hosted", "gateway"],
+      "category": "gateway",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": "danqing",
+      "path": "plugins/self-hosted-mcp",
+      "updatedAt": "2026-08-12"
     }
   ]
 }
