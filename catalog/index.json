@@ -19,25 +19,6 @@
       "updatedAt": "2026-07-19"
     },
     {
-      "kind": "expert",
-      "id": "meeting-facilitator",
-      "name": "Meeting Facilitator",
-      "description": "Facilitates meetings and produces structured notes via the meeting-notes skill.",
-      "keywords": [
-        "meeting",
-        "facilitator"
-      ],
-      "category": "work",
-      "version": "0.1.0",
-      "license": "MIT",
-      "author": "danqing",
-      "path": "experts/meeting-facilitator",
-      "skillDeps": [
-        "meeting-notes"
-      ],
-      "updatedAt": "2026-07-19"
-    },
-    {
       "kind": "connector",
       "id": "composio",
       "name": "Composio Connect",
@@ -180,28 +161,6 @@
       "updatedAt": "2026-08-02"
     },
     {
-      "kind": "expert",
-      "id": "danmo-make",
-      "name": "Danmo Make",
-      "description": "Creative production expert for Danmo Make image/video/audio generation.",
-      "keywords": [
-        "danmo-make",
-        "image",
-        "video",
-        "audio",
-        "creative"
-      ],
-      "category": "creative",
-      "version": "0.1.0",
-      "license": "MIT",
-      "author": "danqing",
-      "path": "experts/danmo-make",
-      "skillDeps": [
-        "danmo-make"
-      ],
-      "updatedAt": "2026-08-02"
-    },
-    {
       "kind": "skill",
       "id": "codegraph",
       "name": "CodeGraph",
@@ -248,31 +207,6 @@
         "linux": "deps/uninstall-linux.sh",
         "windows": "deps/uninstall-windows.ps1"
       }
-    },
-    {
-      "kind": "expert",
-      "id": "codegraph",
-      "name": "CodeGraph",
-      "description": "Symbol, call-graph, and impact analysis. Installs skill + connector + platform CLI.",
-      "keywords": [
-        "codegraph",
-        "symbols",
-        "callers",
-        "impact",
-        "code"
-      ],
-      "category": "code",
-      "version": "0.2.0",
-      "license": "MIT",
-      "author": "danqing",
-      "path": "experts/codegraph",
-      "skillDeps": [
-        "codegraph"
-      ],
-      "connectorDeps": [
-        "codegraph"
-      ],
-      "updatedAt": "2026-08-04"
     },
     {
       "kind": "plugin",
