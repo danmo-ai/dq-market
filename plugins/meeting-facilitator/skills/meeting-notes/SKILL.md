@@ -2,6 +2,7 @@
 name: meeting-notes
 description: Structure meeting notes into agenda, decisions, and action items. Use when the user asks for meeting minutes, standup notes, or follow-up tracking.
 license: MIT
+source: plugin
 compatibility: Requires read_file and read_skill; ask_user optional for clarifying owners/dates
 metadata:
   author: danqing

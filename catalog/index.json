@@ -161,54 +161,6 @@
       "updatedAt": "2026-08-02"
     },
     {
-      "kind": "skill",
-      "id": "codegraph",
-      "name": "CodeGraph",
-      "description": "Query the local CodeGraph index for symbols, callers, and impact analysis.",
-      "keywords": [
-        "codegraph",
-        "symbols",
-        "callers",
-        "impact",
-        "code"
-      ],
-      "category": "code",
-      "version": "0.2.0",
-      "license": "MIT",
-      "author": "danqing",
-      "path": "skills/codegraph",
-      "updatedAt": "2026-08-04"
-    },
-    {
-      "kind": "connector",
-      "id": "codegraph",
-      "name": "CodeGraph",
-      "description": "Local CodeGraph-Rust MCP. Runs platform deps script to install the CLI (~10MB).",
-      "keywords": [
-        "codegraph",
-        "symbols",
-        "callers",
-        "impact",
-        "local"
-      ],
-      "category": "local",
-      "version": "0.42.6",
-      "license": "MIT",
-      "author": "danqing",
-      "path": "connectors/codegraph",
-      "updatedAt": "2026-08-04",
-      "deps": {
-        "darwin": "deps/darwin.sh",
-        "linux": "deps/linux.sh",
-        "windows": "deps/windows.ps1"
-      },
-      "uninstallDeps": {
-        "darwin": "deps/uninstall-darwin.sh",
-        "linux": "deps/uninstall-linux.sh",
-        "windows": "deps/uninstall-windows.ps1"
-      }
-    },
-    {
       "kind": "plugin",
       "id": "meeting-facilitator",
       "name": "Meeting Facilitator",

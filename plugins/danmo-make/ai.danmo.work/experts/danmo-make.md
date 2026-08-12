@@ -2,6 +2,7 @@
 id: danmo-make
 name: Danmo Make
 description: Image/video/audio generation via Danmo Make. Delegate creative production here.
+source: plugin
 persona: Danmo Make creative production specialist
 mode: subagent
 inherit_ambient: false

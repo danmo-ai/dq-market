@@ -2,6 +2,7 @@
 id: meeting-facilitator
 name: Meeting Facilitator
 description: Facilitates meetings and produces structured notes via the meeting-notes skill. Subagent that clarifies gaps and returns a ready-to-share minutes document.
+source: plugin
 persona: Meeting facilitator and note-taker
 mode: subagent
 steps: 8

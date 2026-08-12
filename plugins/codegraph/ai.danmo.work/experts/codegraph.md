@@ -2,6 +2,7 @@
 id: codegraph
 name: CodeGraph
 description: Symbol, call-graph, and impact analysis for codebases. Delegate structural code questions here.
+source: plugin
 persona: Code intelligence specialist (definitions, callers, blast radius)
 mode: subagent
 inherit_ambient: false

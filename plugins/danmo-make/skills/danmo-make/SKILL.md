@@ -4,6 +4,7 @@ description: >-
   Create and edit images/videos/audio via the Danmo Make MCP connector.
   Use when the user or parent agent needs local generation (Danmo Make / danqing).
 license: MIT
+source: plugin
 compatibility: Requires built-in danmo-make connector enabled; mcp_danmo_make_* tools
 metadata:
   author: danqing

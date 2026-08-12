@@ -4,6 +4,7 @@ description: >-
   Query the local CodeGraph index for symbols, callers, and impact analysis.
   Use when the user or parent agent needs structural code intelligence.
 license: MIT
+source: plugin
 compatibility: Requires codegraph connector (market); mcp_codegraph_* tools
 metadata:
   author: danmo
